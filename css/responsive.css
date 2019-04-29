@@ -1,0 +1,82 @@
+/*
+===========================================================================
+ EXCLUSIVE ON themeforest.net
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Template Name   : Benzene - Personal Portfolio Template
+ Author          : bootWeb
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Copyright (c) 2017 - bootWeb - https://themeforest.net/user/bootweb
+===========================================================================
+
+NOTE: This is a responsive stylesheet of the template. This file contains the styling for various devices like mobile phone, tablet, laptop etc.
+*/
+
+/*================================================
+            Table of contents  
+==================================================
+ 
+1. Layout greater than 768px
+2. Layout lesser than 768px
+
+====================================================
+            End table content 
+===================================================*/
+
+/* Layout greater than 768px */
+@media(min-width:768px) {
+  .custom-navbar {
+    border-bottom: 0;
+    padding: 10px 0px;
+  }
+  .custom-navbar .nav li a {
+    margin: 8px 0px;
+  }
+  #home .text h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  #home .text .element,
+  .typed-cursor {
+    font-size: 35px;
+  }
+}
+
+/* Layout lesser than 768px */
+@media (max-width:768px){
+  .navbar-collapse {
+    text-align:center;  
+  }
+  .custom-navbar .nav li a {
+    line-height: 20px;
+    overflow: hidden;
+    color: #000;
+  }
+  .custom-navbar .navbar-brand {
+    position: absolute;
+    top: -6px;
+  }
+  .custom-navbar .navbar-nav > li > a.active {
+    border-bottom: none;
+  }
+  .custom-navbar .navbar-nav > li > a.active {
+    border-bottom: none;
+  }
+  .scroll-mob {
+    background-color: #fff;
+    box-shadow: 0 5px 5px -5px rgba(0,0,0,0.4);
+  }
+  .custom-navbar .nav li:first-child {
+    border-top: 1px solid #000;
+  }
+  #home .text h1 {
+    font-size: 46px;
+    font-weight: bold;
+  }
+  #home .text .element,
+  .typed-cursor {
+    font-size: 26px;
+  }
+  #about .row h1 {
+    margin-top: 0;
+  }
+}
