@@ -64,7 +64,7 @@
   $entered_email = $_POST["email"];
   $entered_subject = $_POST["subject"];
   $entered_message = $_POST["message"];
-$sendTo = '<personal@website.com>';  //put your email address here
+$sendTo = 'mogimartinez@gmail.com';  //put your email address here
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message');
 $okMessage = 'I got your message, thanks for contacting. Will get back soon.';
